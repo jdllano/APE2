@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio formulario HTML</title>
+</head> 
+<body>
+    <header>
+        <img src="img/utpl_baner.png" alt="logo_utpl">
+        <span>Formulario</span>
+        <section>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="errores.html">Errores</a>
+                <a href="formulario.html">Formulario</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="conferencias.html">Conferencias</a>
+            </nav> 
+        </section>
+    </header>
+    <main>
+        <h2>Formulario de inscripción a las conferencias</h2>
+        <form action="https://www.utpl.edu.ec/" method="get" target="_blank"> 
+            <p>Nombre <input type="text" name="nombre" title="Ingrese su nombre completo" required autofocus></p>
+            <p>Email <input type="email" name="direccion_email" placeholder="nombre@dominio.com" required></p>
+            <p>Web <input type="url" name="direccion_url" placeholder="URL de tu página web personal"></p>
+            <p>Fecha de registro <input type="date" name="fecha"></p>
+            <p>Hora <input type="time" name="Hora"></p>
+            <p>Edad <input type="number" name="edad" min="18" max="65" title="Ingrese la edad entre 18 y 65 años"></p>
+            <p>Contacto <input type="tel" name="telefono"></p>
+            <p>Color favorito <input type="color" name="color"></p>
+            <p><input type="submit"></p>
+        </form>
+    </main>
+    <footer>
+        @jdllano
+    </footer>
+</body>
+</html>
